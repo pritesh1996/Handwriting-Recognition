@@ -1,0 +1,5 @@
+require 'nn'
+require 'image'
+model = torch.load('alphaModelapdi.net')
+N = dofile 'input'
+speller = dofile 'speller'
