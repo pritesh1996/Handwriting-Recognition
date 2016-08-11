@@ -187,7 +187,7 @@ local function segment(img,newc)						-- segment function segments a given line 
 
 function N.f(i)									-- figuring out function
 	red = image.load(i,3,'double')						-- load RGB image
-	local l = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'o', 1, 2, 3, 4, 's', 6, 7, 8, 9 }
+	local l = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
 
 	img = image.load(i,1,'double')						-- load black and white image
 	img = 255 - (255 * img)							-- normalization technique
